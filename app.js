@@ -4,9 +4,9 @@ console.log(
 var update = function () {
   date = moment();
   dateAndTime.html(
-    '<p>time: ' +
+    '<h2>time: ' +
       date.format('dddd, MMMM Do YYYY, h:mm:ss a') +
-      '</p>'
+      '</h2>'
   );
 };
 
