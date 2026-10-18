@@ -18,7 +18,7 @@
 }
 
 /* The inner container (the island) */
-.content-island {
+.container {
   /* Island aesthetics */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
@@ -33,7 +33,7 @@
 }
 
 .content-island {
-  /* ... previous styles ... */
+  /* mobile support */
   overflow-wrap: break-word; /* Forces long text to wrap */
   box-sizing: border-box;    /* Ensures padding doesn't add to the width */
 }
